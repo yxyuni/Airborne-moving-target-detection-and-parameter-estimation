@@ -102,7 +102,7 @@ $$
 
 ## Target Detection Results
 
-ASPIRE achieves the highest **mAPₐ₅₀** of 99.3%, outperforming YOLOv8-s (99.0%) and YOLOv11 (99.1%). Additionally, ASPIRE excels in stricter metrics such as **mAPₐ₇₅** (96.3%) and overall mAP (79.3%).
+ASPIRE achieves the highest **mAP₅₀** of 99.3%, outperforming YOLOv8-s (99.0%) and YOLOv11 (99.1%). Additionally, ASPIRE excels in stricter metrics such as **mAP₇₅** (96.3%) and overall mAP (79.3%).
 
 Despite its superior performance, ASPIRE maintains efficiency with only 2.8M parameters and 15.7 GFLOPs, balancing precision and computational requirements for real-world applications.
 
@@ -177,7 +177,5 @@ ASPIRE demonstrates consistent improvements across backbones, achieving a balanc
 
    ```bash
    python visualize.py --model checkpoints/model.pth --input <input_image>
+   ```
    
-
-
-
