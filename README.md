@@ -60,7 +60,7 @@ The ASPIRE framework leverages advanced machine learning and statistical methods
 
 ## Detection Results
 
-| **Model**           | **mAPₐ₅₀ (%)** | **mAPₐ₇₅ (%)** | **mAP (%)** | **Params (M)** | **GFLOPs** |
+| **Model**           | **mAP₅₀ (%)** | **mAP₇₅ (%)** | **mAP (%)** | **Params (M)** | **GFLOPs** |
 |----------------------|------------------|------------------|-----------|-------------|----------|
 | Faster R-CNN        | 97.6            | 89.2            | 70.5      | 41.3        | 25.9     |
 | RetinaNet           | 97.2            | 84.6            | 70.2      | 36.3        | 13.1     |
