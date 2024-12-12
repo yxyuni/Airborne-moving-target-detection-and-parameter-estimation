@@ -82,9 +82,9 @@ The ASPIRE framework leverages advanced machine learning and statistical methods
 ## Experimental Setups
 
 - **System Configuration**: Ubuntu 24.04 with NVIDIA GTX 4080 GPU using CUDA version 12.2.
-- **Optimizer**: AdamW with a learning rate of 0.01, \(\beta = (0.9, 0.999)\), and a weight decay of 0.0005.
+- **Optimizer**: AdamW with a learning rate of 0.01, $\beta = (0.9, 0.999)$, and a weight decay of 0.0005.
 - **Training Settings**: 500 epochs on the SHARP dataset, split into 80% training and 20% validation sets.
-- **Evaluation Metrics**: Accuracy, Recall, mAPₐ₅₀, and mAP across IoU thresholds from 0.5 to 0.95 (step size 0.05).
+- **Evaluation Metrics**: Accuracy, Recall, mAP₅₀, and mAP across IoU thresholds from 0.5 to 0.95 (step size 0.05).
 
 ### Precision and Recall
 
