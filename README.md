@@ -150,39 +150,5 @@ ASPIRE demonstrates consistent improvements across backbones, achieving a balanc
 
 ## Installation and Usage
 
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/yxyuni/Airborne-moving-target-detection-and-parameter-estimation.git
-   ```
-
-2. **Install dependencies**:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the demo**:
-
-   ```bash
-   python demo.py --input <input_image>
-   ```
-
-4. **Train the model**:
-
-   ```bash
-   python train.py --config config.yaml
-   ```
-
-5. **Evaluate the model**:
-
-   ```bash
-   python evaluate.py --model checkpoints/model.pth --data <dataset_path>
-   ```
-
-6. **Visualize results**:
-
-   ```bash
-   python visualize.py --model checkpoints/model.pth --input <input_image>
-   ```
+The project code will be uploaded in the near future.
    
