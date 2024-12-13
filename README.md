@@ -138,7 +138,7 @@ Using a Kalman filter, ASPIRE estimates motion parameters such as apparent veloc
 
 ### Backbone Study
 
-| **Backbone (-n)** | **mAPₐ₅₀ (%)** | **mAPₐ₇₅ (%)** | **mAP (%)** | **Params (M)** | **GFLOPs** |
+| **Backbone (-n)** | **mAP₅₀ (%)** | **mAP₇₅ (%)** | **mAP (%)** | **Params (M)** | **GFLOPs** |
 |-------------------|------------------|------------------|-----------|-------------|----------|
 | YOLOv5            | 99.3            | 96.0            | 79.0      | 2.3         | 14.5     |
 | YOLOv8            | 99.3            | 96.3            | 79.3      | 2.8         | 15.7     |
