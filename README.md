@@ -30,10 +30,10 @@ This repository presents **SHARP** (Spectral and High-dynamic Aerial Target with
 
 ![Dataset Overview](https://github.com/yxyuni/Airborne-moving-target-detection-and-parameter-estimation/blob/main/figs/77_final_combined.png)
 
-## Dataset Download Website
+## The SHARP Dataset Download Website
 
-[Baidu Netdisk](https://pan.baidu.com/s/11_6zqzW79FvBEclBS0xGQQ?pwd=0000)
-We provide the SHARP dataset, which consists of images and annotations for a multispectral aerial target dataset. The YOLO-OBB folder contains data and annotations for Oriented Bounding Boxes Object Detection, the YOLO folder contains standard detection data and annotations, and the CoCo folder stores data and annotations in the CoCo format. The air.xlsx file contains information such as latitude, longitude, ground speed, track, altitude, icao24, and callsign for aerial targets.
+You can download the SHAPR dataset from [Baidu Netdisk](https://pan.baidu.com/s/11_6zqzW79FvBEclBS0xGQQ?pwd=0000). The SHARP dataset consists of images and annotations for a multispectral aerial target. 
+The YOLO-OBB folder contains data and annotations for Oriented Bounding Boxes Object Detection, the YOLO folder contains standard detection data and annotations, and the CoCo folder stores data and annotations in the CoCo format. The air.xlsx file contains information such as latitude, longitude, ground speed, track, altitude, icao24, and callsign for aerial targets.
 ### Dataset Structure:
 - **Source Satellites**: GFDM-01 and CM-01.  
 - **Data Diversity**: Images cover varied environments such as urban areas, oceans, fields, and mountainous terrains.  
