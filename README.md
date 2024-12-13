@@ -78,7 +78,10 @@ The ASPIRE framework leverages advanced machine learning and statistical methods
 | YOLOv11-n           | 99.1            | 92.2            | 77.4      | 2.3         | 5.0      |
 | YOLOv11-s           | 98.8            | 93.6            | 77.9      | 9.1         | 20.0     |
 | **ASPIRE**          | **99.3**        | **96.3**        | **79.3**  | 2.8         | 15.7     |
+|------------------------------------------------------------------------------------------------|
 | **ASPIRE-r**        | **99.5**        | **99.5**        | **89.6**  | 2.9         | 15.9     |
+
+In the ASPIRE-r experiment, incorporating the rotation box angle regression loss resulted in significantly higher performance compared to traditional detection box methods.
 
 ## Experimental Setups
 
