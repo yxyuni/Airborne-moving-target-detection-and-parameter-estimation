@@ -174,13 +174,13 @@ ASPIRE demonstrates consistent improvements across backbones, achieving a balanc
 4. **Train the model**:
 
    ```bash
-   python train.py --config config.yaml
+   yolo detect train data=my_data.yaml model=ours.yaml epochs=500 batch=8 imgsz=256 device=0,1,2,3,4,5,6,7
    ```
 
 5. **Evaluate the model**:
 
    ```bash
-   python evaluate.py --model checkpoints/model.pth --data <dataset_path>
+   yolo val model=weights.pt data=my_data.yaml batch=8
    ```
 
 6. **Visualize results**:
