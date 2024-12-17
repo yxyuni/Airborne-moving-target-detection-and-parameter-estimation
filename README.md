@@ -165,26 +165,21 @@ ASPIRE demonstrates consistent improvements across backbones, achieving a balanc
    pip install -r requirements.txt
    ```
 
-3. **Run the demo**:
-
-   ```bash
-   python demo.py --input <input_image>
-   ```
-
-4. **Train the model**:
+3. **Train the model**:
 
    ```bash
    yolo detect train data=my_data.yaml model=ours.yaml epochs=500 batch=8 imgsz=256 device=0,1,2,3,4,5,6,7
    ```
 
-5. **Evaluate the model**:
+4. **Evaluate the model**:
 
    ```bash
    yolo val model=weights.pt data=my_data.yaml batch=8
    ```
 
-6. **Visualize results**:
+5. **Visualize results**:
 
    ```bash
-   python visualize.py --model checkpoints/model.pth --input <input_image>
+   yolo detect predict model=path/to/best.pt source='https://ultralytics.com/images/bus.jpg' # predict with custom model
+   ```
    
