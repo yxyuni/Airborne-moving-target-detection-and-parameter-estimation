@@ -32,8 +32,11 @@ This repository presents **SHARP** (Spectral and High-dynamic Aerial Target with
 
 ## The SHARP Dataset Download Website
 
-You can download the SHAPR dataset from [Baidu Netdisk](https://pan.baidu.com/s/11_6zqzW79FvBEclBS0xGQQ?pwd=0000). The SHARP dataset consists of images and annotations for a multispectral aerial target. 
-The YOLO-OBB folder contains data and annotations for Oriented Bounding Boxes Object Detection, the YOLO folder contains standard detection data and annotations, and the CoCo folder stores data and annotations in the CoCo format. The air.xlsx file contains information such as latitude, longitude, ground speed, track, altitude, icao24, and callsign for aerial targets.
+You can download the SHAPR dataset from [Baidu Netdisk](https://pan.baidu.com/s/1A4QiuU7aiMlDHeUj_xvCMQ?pwd=0000). 
+The SHARP dataset consists of images and annotations for a multispectral aerial target. 
+The YOLO-OBB folder contains data and annotations for Oriented Bounding Boxes Object Detection, while the YOLO folder contains standard detection data and annotations, and the CoCo folder stores data and annotations in the CoCo format. 
+Moreover you could find several PAN images of GFDM-01 satellite.
+The air.xlsx file contains information such as latitude, longitude, ground speed, track, altitude, icao24, and callsign for aerial targets.
 ### Dataset Structure:
 - **Source Satellites**: GFDM-01 and CM-01.  
 - **Data Diversity**: Images cover varied environments such as urban areas, oceans, fields, and mountainous terrains.  
@@ -150,5 +153,38 @@ ASPIRE demonstrates consistent improvements across backbones, achieving a balanc
 
 ## Installation and Usage
 
-The project code will be uploaded in the near future.
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yxyuni/Airborne-moving-target-detection-and-parameter-estimation.git
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the demo**:
+
+   ```bash
+   python demo.py --input <input_image>
+   ```
+
+4. **Train the model**:
+
+   ```bash
+   python train.py --config config.yaml
+   ```
+
+5. **Evaluate the model**:
+
+   ```bash
+   python evaluate.py --model checkpoints/model.pth --data <dataset_path>
+   ```
+
+6. **Visualize results**:
+
+   ```bash
+   python visualize.py --model checkpoints/model.pth --input <input_image>
    
